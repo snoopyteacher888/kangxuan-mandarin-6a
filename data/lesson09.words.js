@@ -2,6 +2,10 @@
    生字、語詞：options 的第一個是正確答案（作答時會打亂）。 */
 (function (root) {
   var d = {
+    /* 三個場景、動作的句子用三張圖（老師要求）：原本的圖 → 第一、二、三張（還沒上傳就先用原本那一張） */
+    multiImg: {
+      'youdesan.png': ['youdesan-1.png', 'youdesan-2.png', 'youdesan-3.png']
+    },
     /* 理解提問的分類（照課本「閱讀理解提問」）：extract 提取訊息、infer 推論訊息、interpret 詮釋整合、evaluate 比較評估。只放題號，不放課文 */
     quizLevels: { qa: 'extract', qb: 'extract', qc: 'extract', qd: 'infer', qe: 'infer', qf: 'infer', qg: 'interpret', qh: 'interpret',
       qi: 'evaluate', qj: 'evaluate', k1: 'interpret', k2: 'evaluate' },
